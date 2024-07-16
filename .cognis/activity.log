@@ -1,2 +1,3 @@
 2024-06-01T14:18:18  perf(report): trim whitespace in parsed fields
 2024-06-23T09:35:25  build(format): add a --quiet mode
+2024-07-16T16:52:32  fix(fixtures): add usage examples to help
