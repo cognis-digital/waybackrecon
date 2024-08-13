@@ -2,3 +2,4 @@
 2024-06-23T09:35:25  build(format): add a --quiet mode
 2024-07-16T16:52:32  fix(fixtures): add usage examples to help
 2024-08-08T11:09:39  perf(tests): support stdin as a source
+2024-08-13T18:26:46  test(docs): add color + severity icons
