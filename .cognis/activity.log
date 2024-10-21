@@ -5,3 +5,4 @@
 2024-08-13T18:26:46  test(docs): add color + severity icons
 2024-09-06T13:43:53  style(scan): assert exit codes in tests
 2024-09-28T08:00:00  chore: NULLBYTE nightly sweep
+2024-10-21T15:17:07  docs(output): skip binary files by sniffing
