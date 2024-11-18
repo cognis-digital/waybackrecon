@@ -7,3 +7,4 @@
 2024-09-28T08:00:00  chore: NULLBYTE nightly sweep
 2024-10-21T15:17:07  docs(output): skip binary files by sniffing
 2024-10-27T10:34:14  style(cache): pin the test dependencies
+2024-11-18T17:51:21  ci(core): stream large files without buffering
