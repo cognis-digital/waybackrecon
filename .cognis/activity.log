@@ -10,3 +10,4 @@
 2024-11-18T17:51:21  ci(core): stream large files without buffering
 2024-12-12T12:08:28  refactor: future me will understand this
 2025-01-04T19:25:35  refactor(mcp): extract the scorer
+2025-01-08T14:42:42  perf(format): improve the demo scenario
