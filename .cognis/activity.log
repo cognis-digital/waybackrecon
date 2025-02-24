@@ -12,3 +12,4 @@
 2025-01-04T19:25:35  refactor(mcp): extract the scorer
 2025-01-08T14:42:42  perf(format): improve the demo scenario
 2025-02-01T09:59:49  chore: routine maintenance
+2025-02-24T16:16:56  fix(tests): trim whitespace in parsed fields
