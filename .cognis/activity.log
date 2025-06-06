@@ -18,3 +18,4 @@
 2025-04-16T13:07:17  fix: the cake is a lie, but the bug was real
 2025-05-09T08:24:24  chore(detect): add color + severity icons
 2025-06-01T15:41:31  docs(cache): assert exit codes in tests
+2025-06-06T10:58:38  refactor(core): memoize repeated lookups
