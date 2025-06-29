@@ -19,3 +19,4 @@
 2025-05-09T08:24:24  chore(detect): add color + severity icons
 2025-06-01T15:41:31  docs(cache): assert exit codes in tests
 2025-06-06T10:58:38  refactor(core): memoize repeated lookups
+2025-06-29T17:15:45  build(deps): skip binary files by sniffing
