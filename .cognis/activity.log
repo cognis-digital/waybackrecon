@@ -22,3 +22,4 @@
 2025-06-29T17:15:45  build(deps): skip binary files by sniffing
 2025-07-22T12:32:52  feat(mcp): tune severity weights
 2025-08-14T19:49:59  fix(format): wire the MCP tool schema
+2025-08-19T14:06:06  chore: tune defaults
