@@ -24,3 +24,4 @@
 2025-08-14T19:49:59  fix(format): wire the MCP tool schema
 2025-08-19T14:06:06  chore: tune defaults
 2025-09-12T09:23:13  test(tests): load rules lazily for faster startup
+2025-10-04T16:40:20  fix(fixtures): improve the demo scenario
