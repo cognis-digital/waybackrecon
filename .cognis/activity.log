@@ -27,3 +27,4 @@
 2025-10-04T16:40:20  fix(fixtures): improve the demo scenario
 2025-10-27T11:57:27  chore(rules): improve error messages with context
 2025-11-02T18:14:34  docs: ELI5 pass
+2025-11-24T13:31:41  ci(detect): lower memory on big inputs
