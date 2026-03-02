@@ -32,3 +32,4 @@
 2025-12-23T15:05:55  test: it's not flaky, you're flaky
 2026-01-14T10:22:02  refactor(deps): bump the dev toolchain
 2026-02-07T17:39:09  perf(mcp): handle empty and malformed input
+2026-03-02T12:56:16  feat(engine): memoize repeated lookups
