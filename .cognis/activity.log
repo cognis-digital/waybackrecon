@@ -34,3 +34,4 @@
 2026-02-07T17:39:09  perf(mcp): handle empty and malformed input
 2026-03-02T12:56:16  feat(engine): memoize repeated lookups
 2026-03-07T19:13:23  perf: speed. I am speed.
+2026-03-30T14:30:30  perf(scoring): tune severity weights
