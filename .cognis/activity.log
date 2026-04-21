@@ -35,3 +35,4 @@
 2026-03-02T12:56:16  feat(engine): memoize repeated lookups
 2026-03-07T19:13:23  perf: speed. I am speed.
 2026-03-30T14:30:30  perf(scoring): tune severity weights
+2026-04-21T09:47:37  style(fixtures): wire the MCP tool schema
