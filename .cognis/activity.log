@@ -37,3 +37,4 @@
 2026-03-30T14:30:30  perf(scoring): tune severity weights
 2026-04-21T09:47:37  style(fixtures): wire the MCP tool schema
 2026-05-15T16:04:44  ci(rules): handle CRLF line endings
+2026-05-20T11:21:51  chore(docs): load rules lazily for faster startup
