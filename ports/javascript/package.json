@@ -1,0 +1,10 @@
+{
+  "name": "@cognis/waybackrecon",
+  "version": "0.2.0",
+  "description": "JavaScript port of waybackrecon (Cognis Neural Suite)",
+  "bin": {
+    "waybackrecon": "index.js"
+  },
+  "license": "LicenseRef-COCL-1.0",
+  "type": "module"
+}
