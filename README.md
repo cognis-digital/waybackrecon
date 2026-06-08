@@ -36,9 +36,9 @@ Mine archived URLs/params/endpoints from a Wayback/CDX export — without standi
 <a name="features"></a>
 ## Features
 
-- ✅ Todo
-- ✅ Fixme
-- ✅ Xxx
+- ✅ Severity Rank
+- ✅ Parse Cdx Lines
+- ✅ Analyze
 - ✅ Runs on Linux/macOS/Windows · Docker · devcontainer
 - ✅ Ports in Python, JavaScript, Go, and Rust (`ports/`)
 
