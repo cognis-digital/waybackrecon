@@ -1,3 +1,25 @@
-"""WAYBACKRECON — Mine archived URLs/params/endpoints from a Wayback/CDX export."""
-from waybackrecon.core import scan, TOOL_NAME, TOOL_VERSION
-__all__ = ["scan", "TOOL_NAME", "TOOL_VERSION"]
+"""WAYBACKRECON - mine archived URLs, params, and endpoints from a Wayback/CDX export.
+
+Defensive historical attack-surface analysis over artifacts you own/are authorized
+to review. No network access, no attack capability -- pure offline triage.
+"""
+from .core import (
+    Finding,
+    ReconResult,
+    analyze,
+    parse_cdx_lines,
+    severity_rank,
+)
+
+TOOL_NAME = "waybackrecon"
+TOOL_VERSION = "1.0.0"
+
+__all__ = [
+    "TOOL_NAME",
+    "TOOL_VERSION",
+    "Finding",
+    "ReconResult",
+    "analyze",
+    "parse_cdx_lines",
+    "severity_rank",
+]

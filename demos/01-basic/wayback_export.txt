@@ -1,0 +1,18 @@
+com,example)/ 20180101120000 https://example.com/ text/html 200 ABC123 1024
+com,example)/login?next=/account 20180102120000 https://example.com/login?next=/account text/html 200 DEF456 2048
+com,example)/admin/ 20180103120000 https://example.com/admin/ text/html 302 GHI789 512
+com,example)/.env 20180104120000 https://example.com/.env text/plain 200 JKL012 256
+com,example)/.git/config 20180105120000 https://example.com/.git/config text/plain 200 MNO345 300
+com,example)/backup/db.sql.bak 20180106120000 https://example.com/backup/db.sql.bak application/octet-stream 200 PQR678 90210
+com,example)/phpinfo.php 20180107120000 https://example.com/phpinfo.php text/html 200 STU901 4096
+com,example)/.htpasswd 20180108120000 https://example.com/.htpasswd text/plain 200 VWX234 128
+https://example.com/go?redirect=https://evil.example.net
+https://example.com/download?file=../../etc/passwd
+https://example.com/product?id=42&category=books
+https://example.com/api/v1/users?id=7
+https://example.com/connect?api_key=sk_live_EXAMPLE_demo_key
+https://example.com/fetch?url=http://169.254.169.254/latest/meta-data/
+https://example.com/uploads/avatar.png
+https://example.com/reports/q3.pdf
+https://example.com/login?next=/account
+# duplicate of /login above should be de-duplicated
