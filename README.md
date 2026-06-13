@@ -20,6 +20,26 @@ pip install cognis-waybackrecon
 waybackrecon scan .            # → prioritized findings in seconds
 ```
 
+## Usage — step by step
+
+1. **Install** from source (Python 3.9+, stdlib-only):
+   ```bash
+   pip install .
+   ```
+2. **Scan** a Wayback/CDX export or URL list for attack surface (use `-` for stdin):
+   ```bash
+   waybackrecon scan urls.txt
+   ```
+3. **Filter** to actionable findings only and emit machine-readable JSON:
+   ```bash
+   waybackrecon scan urls.txt --min-severity medium --format json -o report.json
+   ```
+4. **Use the output**: `report.json` lists findings with `severity`/`category`/`url`; pipe it into `jq` or render a shareable `--format html` report.
+5. **Automate in CI** — fail the job when high-severity surface appears:
+   ```bash
+   cat cdx_export.txt | waybackrecon scan - --min-severity high --format json > recon.json
+   ```
+
 ## Contents
 
 - [Why waybackrecon?](#why) · [Features](#features) · [Quick start](#quick-start) · [Example](#example) · [Architecture](#architecture) · [AI stack](#ai-stack) · [How it compares](#how-it-compares) · [Integrations](#integrations) · [Install anywhere](#install-anywhere) · [Related](#related) · [Contributing](#contributing)
